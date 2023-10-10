@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        ul {
+            list-style: none;
+        }
+        #left-content {
+            float: left;
+            border: 1px solid red;
+            width: 30%;
+            height: auto;
+            margin: auto;
+            padding: 20px;
+        }
+        #content-article{
+            float: right;
+            padding: 20px;
+            height: auto;
+            width: 70%;
+            border: 1px solid red;
+            margin: auto;
+            display: inline-flex;
+        }
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            float: right;
+            border: 1px solid green;
+            border-radius: 50%;
+        }
+        #head {
+            /* border: 1px solid blue; */
+            padding: 20px;
+        }
+        #content-article section  {
+            border: 1px solid purple;
+            margin-right: 5px;
+        }
+        th, td {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #DDD;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Curiculum Vitae</h1>
+        </center>
+        <div id="head">
+            <img src="assets/images/960x0.webp" alt="photo-profile">
+            <h2>
+                Kristian Suriyadharma
+            </h2>
+            <p>
+                Hello, I'm a second year student in Pertamina University, majoring Computer Science
+            </p>
+        </div>
+    </header>
+    <hr>
+   
+    <section>
+        <h3 id="left-content">Profile</h3>
+            
+        <article id="content-article">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. Dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3 id="left-content">Skills</h3>
+            
+        <article id="content-article">
+            <section>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. Dolores. 
+            </section>
+            <section>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+            </section>
+            <section>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+            </section>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3 id="left-content">Tech that I learn</h3>
+            
+        <div id="content-article">
+            <table>
+                <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Dart</td>
+                    <td>C++</td>
+                    <td>Flutter</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h3 id="left-content">Education</h3>
+            
+        <article id="content-article">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. Dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+        </article>
+    </section>
+    <hr>
+
+    <footer>
+        <center>
+            <ul>
+                <li>Kristian Suriyadharma</li>
+                <li><a href= mailto:kristiansuriyadharm@gmail.com?subject="HTML link">Gmail</a></li>
+                <li><a href="https://github.com/zeronyms">Github</a></li>
+            </ul>
+            <h6>2023&copy; Chandramawa CV by Kristian Suriyadharma</h6>
+        </center>
+    </footer>
+</body>
+</html>
