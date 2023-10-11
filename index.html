@@ -8,6 +8,9 @@
         * {
             box-sizing: border-box;
         }
+        h3 {
+            font-size: 20px;
+        }
         li {
             display: inline-block;
             margin-right: 10px;
@@ -17,18 +20,18 @@
         }
         #left-content {
             float: left;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 30%;
             height: auto;
             margin: auto;
-            padding: 20px;
+            padding: 25px;
         }
         #content-article{
             float: right;
-            padding: 20px;
+            padding: 15px;
             height: auto;
             width: 70%;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             margin: auto;
             display: inline-flex;
         }
@@ -41,7 +44,7 @@
             width: 100px;
             height: 100px;
             float: right;
-            border: 1px solid green;
+            /* border: 1px solid green; */
             border-radius: 50%;
         }
         #head {
@@ -49,15 +52,19 @@
             padding: 20px;
         }
         #content-article section  {
-            border: 1px solid purple;
-            margin-right: 5px;
+            /* border: 1px solid purple; */
+            width: 30%;
+            height: 120px;
+            margin: auto;
         }
         th, td {
             padding: 20px;
             text-align: center;
             border-bottom: 1px solid #DDD;
         }
-        
+        .Education {
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -71,7 +78,7 @@
                 Kristian Suriyadharma
             </h2>
             <p>
-                Hello, I'm a second year student in Pertamina University, majoring Computer Science
+                Hello, I'm a third year student in Pertamina University, majoring Computer Science.
             </p>
         </div>
     </header>
@@ -80,7 +87,7 @@
     <section>
         <h3 id="left-content">Profile</h3>
             
-        <article id="content-article">Hari ini saya dikeluarkan dari kelas MPPL</article>
+        <article id="content-article">As an undergraduate in Computer Science from Pertamina University, I am passionate about mobile and web development. I have experience in both fields and I am particularly interested in deepening my skills in Flutter. I am excited to work with a dynamic team where I can contribute my skills and innovative solutions. </article>
     </section>
     <hr>
     <section>
@@ -88,13 +95,18 @@
             
         <article id="content-article">
             <section>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. Dolores. 
+                <center><h3>Web Design</h3></center>
+                <p>Have experience creating a modern nice looking website.</p>
+                
             </section>
             <section>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+                <center><h3>Interface Design</h3></center>
+                <p>Have a credibility to design responsive and user friendly interface.</p>
+                
             </section>
             <section>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+                <center><h3>Project Design</h3></center>
+                <p>Lead and manage a variety of design and development projects in term and independent situations.</p>
             </section>
         </article>
     </section>
@@ -122,7 +134,7 @@
         <h3 id="left-content">Education</h3>
             
         <article id="content-article">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. Dolores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab deserunt odit exercitationem quo quas a alias aperiam provident, impedit quia et deleniti consequatur mollitia iure enim accusantium delectus nulla. 
+            <p class="Education">Universitas Pertamina - Jakarta Selatan, Indonesia <br> <span>Computer Science Major - X.X GPA</span></p>
         </article>
     </section>
     <hr>
@@ -134,7 +146,7 @@
                 <li><a href= mailto:kristiansuriyadharm@gmail.com?subject="HTML link">Gmail</a></li>
                 <li><a href="https://github.com/zeronyms">Github</a></li>
             </ul>
-            <h6>2023&copy; Chandramawa CV by Kristian Suriyadharma</h6>
+            <h4>2023&copy; Chandramawa CV by Kristian Suriyadharma</h4>
         </center>
     </footer>
 </body>
